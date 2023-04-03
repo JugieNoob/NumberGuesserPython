@@ -2,10 +2,8 @@
 cd ../
 git init
 git add .
+git status
 set /p NameOfCommit=What what you like to name your commit?
 git commit -m "%NameOfCommit%"
-git remote set-url --add --push origin https://github.com/JugieNoob/NumberGuesserPython.git
-git push origin master
-echo "Committed to Github!"
-echo "Press ENTER to close this window!"
-set /p EnterToClose=
+git remote add origin https://github.com/JugieNoob/NumberGuesserPython.git
+git push -u origin master
