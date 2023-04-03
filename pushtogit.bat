@@ -1,5 +1,4 @@
 @echo off
-cd ../
 git init
 git add .
 git status
