@@ -1,4 +1,4 @@
-#
+import gamelogic
 
 __name__ = "__main__"
 
@@ -6,8 +6,7 @@ def menu():
     print("Welcome to Tic Tac Toe\n1. Play\n2. How to play")
     choice = input()
     if (choice == "1"):
-      import gamelogic
-      print("Amogn")
+      gamelogic.startGame()
     elif (choice == "2"):
         howToPlay()
 

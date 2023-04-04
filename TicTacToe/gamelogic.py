@@ -72,6 +72,3 @@ def checkForAIWin():
         if grid == aipossiblewins[i]:
            return True       
 
-
-if __name__ == "__gamelogic__":
-    startGame()
